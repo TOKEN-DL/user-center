@@ -1,4 +1,4 @@
-FROM maven:3.5-jdk-21-alpine as builder
+FROM maven:3.9-jdk-21-alpine as builder
 
 WORKDIR /app
 COPY pom.xml .
